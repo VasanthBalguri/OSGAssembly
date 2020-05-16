@@ -1,0 +1,4 @@
+/home/nodei/practice/osgAssembly/bin/CMakeFiles/rebuild_cache.dir
+/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir
+/home/nodei/practice/osgAssembly/bin/CMakeFiles/edit_cache.dir
+/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench_autogen.dir
