@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nodei/practice/osgAssembly
+CMAKE_SOURCE_DIR = /home/nodei/practice/OSGAssembly
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nodei/practice/osgAssembly/bin
+CMAKE_BINARY_DIR = /home/nodei/practice/OSGAssembly/bin
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Qtworkbench.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Qtworkbench.dir/flags.make
 
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o: ../qtosgwidget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o -c /home/nodei/practice/osgAssembly/qtosgwidget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o -c /home/nodei/practice/OSGAssembly/qtosgwidget.cpp
 
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/qtosgwidget.cpp > CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/qtosgwidget.cpp > CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.i
 
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/qtosgwidget.cpp -o CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/qtosgwidget.cpp -o CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.s
 
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o.provides.build: CMakeFiles/Qtworkbe
 
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../mainwindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o -c /home/nodei/practice/osgAssembly/mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o -c /home/nodei/practice/OSGAssembly/mainwindow.cpp
 
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/mainwindow.cpp > CMakeFiles/Qtworkbench.dir/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/mainwindow.cpp > CMakeFiles/Qtworkbench.dir/mainwindow.cpp.i
 
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/mainwindow.cpp -o CMakeFiles/Qtworkbench.dir/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/mainwindow.cpp -o CMakeFiles/Qtworkbench.dir/mainwindow.cpp.s
 
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o.provides.build: CMakeFiles/Qtworkben
 
 CMakeFiles/Qtworkbench.dir/component.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/component.cpp.o: ../component.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Qtworkbench.dir/component.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/component.cpp.o -c /home/nodei/practice/osgAssembly/component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Qtworkbench.dir/component.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/component.cpp.o -c /home/nodei/practice/OSGAssembly/component.cpp
 
 CMakeFiles/Qtworkbench.dir/component.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/component.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/component.cpp > CMakeFiles/Qtworkbench.dir/component.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/component.cpp > CMakeFiles/Qtworkbench.dir/component.cpp.i
 
 CMakeFiles/Qtworkbench.dir/component.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/component.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/component.cpp -o CMakeFiles/Qtworkbench.dir/component.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/component.cpp -o CMakeFiles/Qtworkbench.dir/component.cpp.s
 
 CMakeFiles/Qtworkbench.dir/component.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Qtworkbench.dir/component.cpp.o.provides.build: CMakeFiles/Qtworkbenc
 
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: ../globalphysics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o -c /home/nodei/practice/osgAssembly/globalphysics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o -c /home/nodei/practice/OSGAssembly/globalphysics.cpp
 
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/globalphysics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/globalphysics.cpp > CMakeFiles/Qtworkbench.dir/globalphysics.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/globalphysics.cpp > CMakeFiles/Qtworkbench.dir/globalphysics.cpp.i
 
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/globalphysics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/globalphysics.cpp -o CMakeFiles/Qtworkbench.dir/globalphysics.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/globalphysics.cpp -o CMakeFiles/Qtworkbench.dir/globalphysics.cpp.s
 
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o.provides.build: CMakeFiles/Qtwork
 
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o: ../osglogger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Qtworkbench.dir/osglogger.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/osglogger.cpp.o -c /home/nodei/practice/osgAssembly/osglogger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Qtworkbench.dir/osglogger.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/osglogger.cpp.o -c /home/nodei/practice/OSGAssembly/osglogger.cpp
 
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/osglogger.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/osglogger.cpp > CMakeFiles/Qtworkbench.dir/osglogger.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/osglogger.cpp > CMakeFiles/Qtworkbench.dir/osglogger.cpp.i
 
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/osglogger.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/osglogger.cpp -o CMakeFiles/Qtworkbench.dir/osglogger.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/osglogger.cpp -o CMakeFiles/Qtworkbench.dir/osglogger.cpp.s
 
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/Qtworkbench.dir/osglogger.cpp.o.provides.build: CMakeFiles/Qtworkbenc
 
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../osgimplementation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o -c /home/nodei/practice/osgAssembly/osgimplementation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o -c /home/nodei/practice/OSGAssembly/osgimplementation.cpp
 
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/osgimplementation.cpp > CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/osgimplementation.cpp > CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.i
 
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/osgimplementation.cpp -o CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/osgimplementation.cpp -o CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.s
 
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o.provides.build: CMakeFiles/Qt
 
 CMakeFiles/Qtworkbench.dir/main.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Qtworkbench.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/main.cpp.o -c /home/nodei/practice/osgAssembly/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Qtworkbench.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/main.cpp.o -c /home/nodei/practice/OSGAssembly/main.cpp
 
 CMakeFiles/Qtworkbench.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/main.cpp > CMakeFiles/Qtworkbench.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/main.cpp > CMakeFiles/Qtworkbench.dir/main.cpp.i
 
 CMakeFiles/Qtworkbench.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/main.cpp -o CMakeFiles/Qtworkbench.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/main.cpp -o CMakeFiles/Qtworkbench.dir/main.cpp.s
 
 CMakeFiles/Qtworkbench.dir/main.cpp.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/Qtworkbench.dir/main.cpp.o.provides.build: CMakeFiles/Qtworkbench.dir
 
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o: Qtworkbench_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o -c /home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o -c /home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp
 
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp > CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp > CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp -o CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp -o CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o.requires:
 
@@ -353,7 +353,7 @@ Qtworkbench: /usr/lib/x86_64-linux-gnu/libTKCDF.so.11.0.0
 Qtworkbench: /usr/lib/x86_64-linux-gnu/libTKMath.so.11.0.0
 Qtworkbench: /usr/lib/x86_64-linux-gnu/libTKernel.so.11.0.0
 Qtworkbench: CMakeFiles/Qtworkbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Qtworkbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Qtworkbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Qtworkbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -377,6 +377,6 @@ CMakeFiles/Qtworkbench.dir/clean:
 .PHONY : CMakeFiles/Qtworkbench.dir/clean
 
 CMakeFiles/Qtworkbench.dir/depend:
-	cd /home/nodei/practice/osgAssembly/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nodei/practice/osgAssembly /home/nodei/practice/osgAssembly /home/nodei/practice/osgAssembly/bin /home/nodei/practice/osgAssembly/bin /home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nodei/practice/OSGAssembly/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nodei/practice/OSGAssembly /home/nodei/practice/OSGAssembly /home/nodei/practice/OSGAssembly/bin /home/nodei/practice/OSGAssembly/bin /home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Qtworkbench.dir/depend
 

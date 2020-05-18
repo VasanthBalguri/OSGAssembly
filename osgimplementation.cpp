@@ -21,18 +21,13 @@ GlobalPhysics* createScene()
     world->addUpdateCallback(new GlobalPhysicsCallback());
     ref_ptr<CollisionShape> plane = new CollisionShape(SURFACE);
     plane->setColor(osg::Vec4( 0.8f, 0.5f, 0.2f, 0.5f ));
-    ref_ptr<CollisionShape> box1 = new CollisionShape(BOX,5.0,5.0,5.0);
+    ref_ptr<CollisionShape> box1 = new CollisionShape(BOX,3.0,2.0,5.0);
     box1->setColor(osg::Vec4( 0.0f, 0.9f, 0.1f, 1.f ));
-    ref_ptr<CollisionShape> box2 = new CollisionShape(BOX,8.0,8.0,2.0);
-    box2->setColor(osg::Vec4( 0.0f, 0.9f, 0.1f, 1.f ));
+    ref_ptr<CollisionShape> tyre1 = new CollisionShape(CYLINDER,1.0,1.0);
+    tyre1->setColor(osg::Vec4( 1.0f, 1.0f, 1.0f, 1.f ));
     ref_ptr<CollisionShape> box3 = new CollisionShape(BOX,100.0,30.0,3.0);
     box3->setColor(osg::Vec4( 0.8f, 0.5f, 0.2f, 0.5f ));
-    ref_ptr<Component> base = new Component(plane.get(),"base",Vec3(0.0,0.0,0.0),Quat(0.0,Vec3(1.0,0.0,0.0)),STATIC,0.0);
-    world->addComponent(base.get());
-    ref_ptr<Component> comp1 = new Component(box1.get(),"box1",Vec3(0.0,15.0,0.0),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,10.0);
-    world->addComponent(comp1.get());
-    ref_ptr<Component> comp2 = new Component(box2.get(),"box2",Vec3(0.0,20.0,0.0),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,10.0);
-    world->addComponent(comp2.get());
+
     ref_ptr<Component> borderN = new Component(box3.get(),"borderN",Vec3(-50.0,0.0,0.0),Quat(osg::PI/2.0,Vec3(0.0,1.0,0.0)),RIGIDBODY,0.0);
     world->addComponent(borderN.get());
     ref_ptr<Component> borderS = new Component(box3.get(),"borderS",Vec3(50.0,0.0,0.0),Quat(osg::PI/2.0,Vec3(0.0,1.0,0.0)),RIGIDBODY,0.0);
@@ -41,8 +36,24 @@ GlobalPhysics* createScene()
     world->addComponent(borderE.get());
     ref_ptr<Component> borderW = new Component(box3.get(),"borderW",Vec3(0.0,0.0,-50.0),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,0.0);
     world->addComponent(borderW.get());
+    ref_ptr<Component> base = new Component(plane.get(),"base",Vec3(0.0,0.0,0.0),Quat(0.0,Vec3(1.0,0.0,0.0)),STATIC,0.0);
+    world->addComponent(base.get());
 
-    ref_ptr<PhysicsJoint> hinge1 = new PhysicsJoint(comp1,comp2,world);
+    ref_ptr<Component> carBody = new Component(box1.get(),"car_body",Vec3(0.0,10.0,0.0),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,10.0);
+    world->addComponent(carBody.get());
+    ref_ptr<Component> wheel1 = new Component(tyre1.get(),"wheel1",Vec3(1.5,5.0,2.5),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,1.0);
+    world->addComponent(wheel1.get());
+    ref_ptr<Component> wheel2 = new Component(tyre1.get(),"wheel1",Vec3(-1.5,5.0,2.5),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,1.0);
+    world->addComponent(wheel2.get());
+    ref_ptr<Component> wheel3 = new Component(tyre1.get(),"wheel1",Vec3(1.5,5.0,-2.5),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,1.0);
+    world->addComponent(wheel3.get());
+    ref_ptr<Component> wheel4 = new Component(tyre1.get(),"wheel1",Vec3(-1.5,5.0,-2.5),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,1.0);
+    world->addComponent(wheel4.get());
+
+    ref_ptr<PhysicsJoint> axle1 = new PhysicsJoint(carBody,wheel1,world,Vec3(3.1,-1.2,3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle2 = new PhysicsJoint(carBody,wheel2,world,Vec3(-3.1,-1.2,3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle3 = new PhysicsJoint(carBody,wheel3,world,Vec3(3.1,-1.2,-3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle4 = new PhysicsJoint(carBody,wheel4,world,Vec3(-3.1,-1.2,-3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
 
     //for displaying global axes
     osg::Matrix m;

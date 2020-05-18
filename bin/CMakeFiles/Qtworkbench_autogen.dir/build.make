@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nodei/practice/osgAssembly
+CMAKE_SOURCE_DIR = /home/nodei/practice/OSGAssembly
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nodei/practice/osgAssembly/bin
+CMAKE_BINARY_DIR = /home/nodei/practice/OSGAssembly/bin
 
 # Utility rule file for Qtworkbench_autogen.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/nodei/practice/osgAssembly/bin
 include CMakeFiles/Qtworkbench_autogen.dir/progress.make
 
 CMakeFiles/Qtworkbench_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nodei/practice/osgAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target Qtworkbench"
-	/usr/bin/cmake -E cmake_autogen /home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench_autogen.dir Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC, UIC and RCC for target Qtworkbench"
+	/usr/bin/cmake -E cmake_autogen /home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench_autogen.dir ""
 
 Qtworkbench_autogen: CMakeFiles/Qtworkbench_autogen
 Qtworkbench_autogen: CMakeFiles/Qtworkbench_autogen.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/Qtworkbench_autogen.dir/clean:
 .PHONY : CMakeFiles/Qtworkbench_autogen.dir/clean
 
 CMakeFiles/Qtworkbench_autogen.dir/depend:
-	cd /home/nodei/practice/osgAssembly/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nodei/practice/osgAssembly /home/nodei/practice/osgAssembly /home/nodei/practice/osgAssembly/bin /home/nodei/practice/osgAssembly/bin /home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nodei/practice/OSGAssembly/bin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nodei/practice/OSGAssembly /home/nodei/practice/OSGAssembly /home/nodei/practice/OSGAssembly/bin /home/nodei/practice/OSGAssembly/bin /home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Qtworkbench_autogen.dir/depend
 

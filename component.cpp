@@ -51,7 +51,7 @@ CollisionShape::CollisionShape(int objshape, float length, float breadth, float 
     {
         collisionShape = new btStaticPlaneShape(btVector3(0,1,0),0);
 
-        osg::ref_ptr<osg::Box> plane = new osg::Box(osg::Vec3(0.0,0.0,0.0),100.0,1.0,100.0);
+        osg::ref_ptr<osg::Box> plane = new osg::Box(osg::Vec3(0.0,-0.5,0.0),100.0,1.0,100.0);
         this->setShape(plane);
         break;
     }
@@ -70,6 +70,14 @@ CollisionShape::CollisionShape(int objshape, float length, float breadth, float 
         osg::ref_ptr<osg::Sphere> sphere = new osg::Sphere(osg::Vec3(0.0,0.0,0.0),length/2.0);
         this->setShape(sphere);
         break;
+    }
+    case CYLINDER:
+    {
+       collisionShape = new btCylinderShape(btVector3(length/2,breadth/2,length/2));
+
+       osg::ref_ptr<osg::Cylinder> cylinder = new osg::Cylinder(osg::Vec3(0.0,0.0,0.0),length/2,breadth);
+       this->setShape(cylinder);
+       break;
     }
 
     }

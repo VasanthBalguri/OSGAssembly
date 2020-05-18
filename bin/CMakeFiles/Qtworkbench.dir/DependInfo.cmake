@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
-  "/home/nodei/practice/osgAssembly/component.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/component.cpp.o"
-  "/home/nodei/practice/osgAssembly/globalphysics.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o"
-  "/home/nodei/practice/osgAssembly/main.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/main.cpp.o"
-  "/home/nodei/practice/osgAssembly/mainwindow.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o"
-  "/home/nodei/practice/osgAssembly/osgimplementation.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
-  "/home/nodei/practice/osgAssembly/osglogger.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/osglogger.cpp.o"
-  "/home/nodei/practice/osgAssembly/qtosgwidget.cpp" "/home/nodei/practice/osgAssembly/bin/CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o"
+  "/home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
+  "/home/nodei/practice/OSGAssembly/component.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/component.cpp.o"
+  "/home/nodei/practice/OSGAssembly/globalphysics.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o"
+  "/home/nodei/practice/OSGAssembly/main.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/main.cpp.o"
+  "/home/nodei/practice/OSGAssembly/mainwindow.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o"
+  "/home/nodei/practice/OSGAssembly/osgimplementation.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
+  "/home/nodei/practice/OSGAssembly/osglogger.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/osglogger.cpp.o"
+  "/home/nodei/practice/OSGAssembly/qtosgwidget.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,6 +19,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
   )
 

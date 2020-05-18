@@ -39,7 +39,8 @@ enum OBJSHAPE
 {
     SURFACE = 0,
     BOX = 1,
-    SPHERE = 2
+    SPHERE = 2,
+    CYLINDER = 3
 };
 enum OBJCOLLISION
 {
@@ -171,13 +172,25 @@ class ActionVisitor : public osg::NodeVisitor
 class PhysicsJoint : public osg::Transform
 {
 public:
-PhysicsJoint(osg::ref_ptr<Component> parent,osg::ref_ptr<Component> child,osg::ref_ptr<GlobalPhysics> world)
+PhysicsJoint(osg::ref_ptr<Component> parent,osg::ref_ptr<Component> child,osg::ref_ptr<GlobalPhysics> world,osg::Vec3 pivot1,osg::Vec3 pivot2,osg::Vec3 axis1,osg::Vec3 axis2)
 {
-    btVector3 pivot1(0.0,10.0,0.0),pivot2(0.0,20.0,0.0), axis1(1.0,0.0,0.0), axis2(1.0,0.0,0.0);
-    std::cout<<"bp1"<<std::endl;
+    btVector3 btpivot1,btpivot2, btaxis1, btaxis2;
+    btpivot1.setX(pivot1.x());
+    btpivot1.setY(pivot1.y());
+    btpivot1.setZ(pivot1.z());
+    btpivot2.setX(pivot2.x());
+    btpivot2.setY(pivot2.y());
+    btpivot2.setZ(pivot2.z());
+    btaxis1.setX(axis1.x());
+    btaxis1.setY(axis1.y());
+    btaxis1.setZ(axis1.z());
+    btaxis2.setX(axis2.x());
+    btaxis2.setY(axis2.y());
+    btaxis2.setZ(axis2.z());
+
     btRigidBody* body1 = parent->getRigidBody();
     btRigidBody* body2 = child->getRigidBody();
-    hinge = new btHingeConstraint(*body1,*body2,pivot1,pivot2,axis1,axis2);
+    hinge = new btHingeConstraint(*body1,*body2,btpivot1,btpivot2,btaxis1,btaxis2);
 
     //fixed = new btFixedConstraint(*body1,*body2);
     world->getWorld()->addConstraint(hinge);

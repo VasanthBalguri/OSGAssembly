@@ -26,7 +26,7 @@ QtOSGWidget::QtOSGWidget(qreal scaleX, qreal scaleY, QWidget* parent)
         this->setMouseTracking(true);
 
 
-        osg::Vec3d eye( 100.0, 10.0, 100.0 );
+        osg::Vec3d eye( 60.0, 40.0, 60.0 );
         osg::Vec3d center( 0.0, 0.0, 0.0 );
         osg::Vec3d up( 0.0, 1.0, 0.0 );
 

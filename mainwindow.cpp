@@ -30,6 +30,7 @@ MainWindow::MainWindow(QWidget *parent) :
 //g->createNode(0,0,"first","node");
     ui->setupUi(this);
     this->setCentralWidget(qOsg);
+    qOsg->setFocus();
    // qOsg->setScene(createScene());
 }
 

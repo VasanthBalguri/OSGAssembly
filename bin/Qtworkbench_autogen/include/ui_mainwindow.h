@@ -36,7 +36,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QStringLiteral("MainWindow"));
-        MainWindow->resize(404, 326);
+        MainWindow->resize(1024, 768);
         MainWindow->setDockNestingEnabled(false);
         MainWindow->setUnifiedTitleAndToolBarOnMac(false);
         centralWidget = new QWidget(MainWindow);
@@ -50,7 +50,7 @@ public:
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 404, 30));
+        menuBar->setGeometry(QRect(0, 0, 1024, 30));
         MainWindow->setMenuBar(menuBar);
         mainToolBar = new QToolBar(MainWindow);
         mainToolBar->setObjectName(QStringLiteral("mainToolBar"));

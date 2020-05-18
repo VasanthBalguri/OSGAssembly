@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/nodei/practice/osgAssembly/assemblytree.h
+/home/nodei/practice/OSGAssembly/assemblytree.h
 QFrame
 -
 QGraphicsWidget
@@ -20,55 +20,55 @@ QGraphicsItem
 QString
 -
 
-/home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/EWIEGA46WW/moc_mainwindow.cpp
 ../../../mainwindow.h
-/home/nodei/practice/osgAssembly/mainwindow.h
+/home/nodei/practice/OSGAssembly/mainwindow.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
 -
 
-/home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp
+/home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp
 EWIEGA46WW/moc_mainwindow.cpp
-/home/nodei/practice/osgAssembly/bin/Qtworkbench_autogen/EWIEGA46WW/moc_mainwindow.cpp
+/home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/EWIEGA46WW/moc_mainwindow.cpp
 
-/home/nodei/practice/osgAssembly/component.cpp
+/home/nodei/practice/OSGAssembly/component.cpp
 osgimplementation.h
-/home/nodei/practice/osgAssembly/osgimplementation.h
+/home/nodei/practice/OSGAssembly/osgimplementation.h
 
-/home/nodei/practice/osgAssembly/globalphysics.cpp
+/home/nodei/practice/OSGAssembly/globalphysics.cpp
 osgimplementation.h
-/home/nodei/practice/osgAssembly/osgimplementation.h
+/home/nodei/practice/OSGAssembly/osgimplementation.h
 
-/home/nodei/practice/osgAssembly/main.cpp
+/home/nodei/practice/OSGAssembly/main.cpp
 mainwindow.h
-/home/nodei/practice/osgAssembly/mainwindow.h
+/home/nodei/practice/OSGAssembly/mainwindow.h
 QApplication
 -
 
-/home/nodei/practice/osgAssembly/mainwindow.cpp
+/home/nodei/practice/OSGAssembly/mainwindow.cpp
 mainwindow.h
-/home/nodei/practice/osgAssembly/mainwindow.h
+/home/nodei/practice/OSGAssembly/mainwindow.h
 ui_mainwindow.h
-/home/nodei/practice/osgAssembly/ui_mainwindow.h
+/home/nodei/practice/OSGAssembly/ui_mainwindow.h
 osgimplementation.h
-/home/nodei/practice/osgAssembly/osgimplementation.h
+/home/nodei/practice/OSGAssembly/osgimplementation.h
 assemblytree.h
-/home/nodei/practice/osgAssembly/assemblytree.h
+/home/nodei/practice/OSGAssembly/assemblytree.h
 osglogger.h
-/home/nodei/practice/osgAssembly/osglogger.h
+/home/nodei/practice/OSGAssembly/osglogger.h
 
-/home/nodei/practice/osgAssembly/mainwindow.h
+/home/nodei/practice/OSGAssembly/mainwindow.h
 QMainWindow
 -
 qtosgwidget.h
-/home/nodei/practice/osgAssembly/qtosgwidget.h
+/home/nodei/practice/OSGAssembly/qtosgwidget.h
 
-/home/nodei/practice/osgAssembly/osgimplementation.cpp
+/home/nodei/practice/OSGAssembly/osgimplementation.cpp
 osgimplementation.h
-/home/nodei/practice/osgAssembly/osgimplementation.h
+/home/nodei/practice/OSGAssembly/osgimplementation.h
 
-/home/nodei/practice/osgAssembly/osgimplementation.h
+/home/nodei/practice/OSGAssembly/osgimplementation.h
 vector
 -
 iostream
@@ -124,11 +124,11 @@ osgGA/EventVisitor
 bullet/btBulletDynamicsCommon.h
 -
 
-/home/nodei/practice/osgAssembly/osglogger.cpp
+/home/nodei/practice/OSGAssembly/osglogger.cpp
 osglogger.h
-/home/nodei/practice/osgAssembly/osglogger.h
+/home/nodei/practice/OSGAssembly/osglogger.h
 
-/home/nodei/practice/osgAssembly/osglogger.h
+/home/nodei/practice/OSGAssembly/osglogger.h
 osgDB/ReadFile
 -
 fstream
@@ -140,13 +140,13 @@ boost/chrono/chrono_io.hpp
 boost/chrono/io/timezone.hpp
 -
 
-/home/nodei/practice/osgAssembly/qtosgwidget.cpp
+/home/nodei/practice/OSGAssembly/qtosgwidget.cpp
 qtosgwidget.h
-/home/nodei/practice/osgAssembly/qtosgwidget.h
+/home/nodei/practice/OSGAssembly/qtosgwidget.h
 osglogger.h
-/home/nodei/practice/osgAssembly/osglogger.h
+/home/nodei/practice/OSGAssembly/osglogger.h
 
-/home/nodei/practice/osgAssembly/qtosgwidget.h
+/home/nodei/practice/OSGAssembly/qtosgwidget.h
 QApplication
 -
 QMainWindow
