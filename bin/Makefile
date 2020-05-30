@@ -325,6 +325,33 @@ osglogger.cpp.s:
 	$(MAKE) -f CMakeFiles/Qtworkbench.dir/build.make CMakeFiles/Qtworkbench.dir/osglogger.cpp.s
 .PHONY : osglogger.cpp.s
 
+physicsjoints.o: physicsjoints.cpp.o
+
+.PHONY : physicsjoints.o
+
+# target to build an object file
+physicsjoints.cpp.o:
+	$(MAKE) -f CMakeFiles/Qtworkbench.dir/build.make CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o
+.PHONY : physicsjoints.cpp.o
+
+physicsjoints.i: physicsjoints.cpp.i
+
+.PHONY : physicsjoints.i
+
+# target to preprocess a source file
+physicsjoints.cpp.i:
+	$(MAKE) -f CMakeFiles/Qtworkbench.dir/build.make CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.i
+.PHONY : physicsjoints.cpp.i
+
+physicsjoints.s: physicsjoints.cpp.s
+
+.PHONY : physicsjoints.s
+
+# target to generate assembly for a file
+physicsjoints.cpp.s:
+	$(MAKE) -f CMakeFiles/Qtworkbench.dir/build.make CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.s
+.PHONY : physicsjoints.cpp.s
+
 qtosgwidget.o: qtosgwidget.cpp.o
 
 .PHONY : qtosgwidget.o
@@ -383,6 +410,9 @@ help:
 	@echo "... osglogger.o"
 	@echo "... osglogger.i"
 	@echo "... osglogger.s"
+	@echo "... physicsjoints.o"
+	@echo "... physicsjoints.i"
+	@echo "... physicsjoints.s"
 	@echo "... qtosgwidget.o"
 	@echo "... qtosgwidget.i"
 	@echo "... qtosgwidget.s"

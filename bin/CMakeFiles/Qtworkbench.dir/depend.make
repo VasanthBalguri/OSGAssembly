@@ -143,10 +143,13 @@ CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o: /usr/incl
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
 CMakeFiles/Qtworkbench.dir/component.cpp.o: ../component.cpp
-CMakeFiles/Qtworkbench.dir/component.cpp.o: ../osgimplementation.h
+CMakeFiles/Qtworkbench.dir/component.cpp.o: ../component.h
+CMakeFiles/Qtworkbench.dir/component.cpp.o: ../osginclude.h
 
+CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: ../component.h
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: ../globalphysics.cpp
-CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: ../osgimplementation.h
+CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: ../globalphysics.h
+CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o: ../osginclude.h
 
 CMakeFiles/Qtworkbench.dir/main.cpp.o: ../main.cpp
 CMakeFiles/Qtworkbench.dir/main.cpp.o: ../mainwindow.h
@@ -288,11 +291,14 @@ CMakeFiles/Qtworkbench.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidge
 CMakeFiles/Qtworkbench.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
 CMakeFiles/Qtworkbench.dir/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../assemblytree.h
+CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../component.h
+CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../globalphysics.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../mainwindow.cpp
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../mainwindow.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../osgimplementation.h
+CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../osginclude.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../osglogger.h
+CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../physicsjoints.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: ../qtosgwidget.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
@@ -301,7 +307,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
@@ -379,7 +384,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QColor
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/QSurfaceFormat
@@ -403,10 +407,8 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qopengles2ext.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglext.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
@@ -416,7 +418,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -430,10 +431,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDesktopWidget
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
@@ -454,11 +451,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicslayoutitem.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicswidget.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -468,7 +460,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qopenglwidget.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
-CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
@@ -482,11 +473,20 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/Q
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o: Qtworkbench_autogen/include/ui_mainwindow.h
 
+CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../component.h
+CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../globalphysics.h
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../osgimplementation.cpp
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../osgimplementation.h
+CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../osginclude.h
+CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../physicsjoints.h
 
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o: ../osglogger.cpp
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o: ../osglogger.h
+
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o: ../component.h
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o: ../osginclude.h
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o: ../physicsjoints.cpp
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o: ../physicsjoints.h
 
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o: ../osglogger.h
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o: ../qtosgwidget.cpp

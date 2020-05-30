@@ -177,9 +177,33 @@ CMakeFiles/Qtworkbench.dir/osglogger.cpp.o.provides: CMakeFiles/Qtworkbench.dir/
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o.provides.build: CMakeFiles/Qtworkbench.dir/osglogger.cpp.o
 
 
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o: ../physicsjoints.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o -c /home/nodei/practice/OSGAssembly/physicsjoints.cpp
+
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nodei/practice/OSGAssembly/physicsjoints.cpp > CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.i
+
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nodei/practice/OSGAssembly/physicsjoints.cpp -o CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.s
+
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.requires:
+
+.PHONY : CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.requires
+
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.provides: CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Qtworkbench.dir/build.make CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.provides.build
+.PHONY : CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.provides
+
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.provides.build: CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o
+
+
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o: ../osgimplementation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o -c /home/nodei/practice/OSGAssembly/osgimplementation.cpp
 
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.i: cmake_force
@@ -203,7 +227,7 @@ CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o.provides.build: CMakeFiles/Qt
 
 CMakeFiles/Qtworkbench.dir/main.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Qtworkbench.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Qtworkbench.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/main.cpp.o -c /home/nodei/practice/OSGAssembly/main.cpp
 
 CMakeFiles/Qtworkbench.dir/main.cpp.i: cmake_force
@@ -227,7 +251,7 @@ CMakeFiles/Qtworkbench.dir/main.cpp.o.provides.build: CMakeFiles/Qtworkbench.dir
 
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o: CMakeFiles/Qtworkbench.dir/flags.make
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o: Qtworkbench_autogen/mocs_compilation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o -c /home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen/mocs_compilation.cpp
 
 CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.i: cmake_force
@@ -256,6 +280,7 @@ Qtworkbench_OBJECTS = \
 "CMakeFiles/Qtworkbench.dir/component.cpp.o" \
 "CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o" \
 "CMakeFiles/Qtworkbench.dir/osglogger.cpp.o" \
+"CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o" \
 "CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o" \
 "CMakeFiles/Qtworkbench.dir/main.cpp.o" \
 "CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"
@@ -268,6 +293,7 @@ Qtworkbench: CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
 Qtworkbench: CMakeFiles/Qtworkbench.dir/component.cpp.o
 Qtworkbench: CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o
 Qtworkbench: CMakeFiles/Qtworkbench.dir/osglogger.cpp.o
+Qtworkbench: CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o
 Qtworkbench: CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o
 Qtworkbench: CMakeFiles/Qtworkbench.dir/main.cpp.o
 Qtworkbench: CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o
@@ -353,7 +379,7 @@ Qtworkbench: /usr/lib/x86_64-linux-gnu/libTKCDF.so.11.0.0
 Qtworkbench: /usr/lib/x86_64-linux-gnu/libTKMath.so.11.0.0
 Qtworkbench: /usr/lib/x86_64-linux-gnu/libTKernel.so.11.0.0
 Qtworkbench: CMakeFiles/Qtworkbench.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Qtworkbench"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nodei/practice/OSGAssembly/bin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Qtworkbench"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Qtworkbench.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -366,6 +392,7 @@ CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
 CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/component.cpp.o.requires
 CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o.requires
 CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/osglogger.cpp.o.requires
+CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o.requires
 CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o.requires
 CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/main.cpp.o.requires
 CMakeFiles/Qtworkbench.dir/requires: CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o.requires

@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include "osgimplementation.h"
-#include "assemblytree.h"
 #include "osglogger.h"
 
 MainWindow::MainWindow(QWidget *parent) :

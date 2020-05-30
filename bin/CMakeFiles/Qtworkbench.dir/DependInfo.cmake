@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/nodei/practice/OSGAssembly/mainwindow.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o"
   "/home/nodei/practice/OSGAssembly/osgimplementation.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
   "/home/nodei/practice/OSGAssembly/osglogger.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/osglogger.cpp.o"
+  "/home/nodei/practice/OSGAssembly/physicsjoints.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o"
   "/home/nodei/practice/OSGAssembly/qtosgwidget.cpp" "/home/nodei/practice/OSGAssembly/bin/CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

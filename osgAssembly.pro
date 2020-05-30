@@ -28,17 +28,21 @@ SOURCES += \
         mainwindow.cpp \
     qtosgwidget.cpp \
     osgimplementation.cpp \
-    assemblytree.cpp \
     osglogger.cpp \
     component.cpp \
-    globalphysics.cpp
+    globalphysics.cpp \
+    physicsjoints.cpp
 
 HEADERS += \
         mainwindow.h \
     qtosgwidget.h \
     osgimplementation.h \
-    assemblytree.h \
-    osglogger.h
+    osglogger.h \
+    physicsjoints.h \
+    assembly.h \
+    component.h \
+    globalphysics.h \
+    osginclude.h
 
 FORMS += \
         mainwindow.ui

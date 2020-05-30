@@ -27,6 +27,7 @@ add_executable(Qtworkbench
     component.cpp
     globalphysics.cpp
     osglogger.cpp
+    physicsjoints.cpp
     osgimplementation.cpp
     main.cpp
 )

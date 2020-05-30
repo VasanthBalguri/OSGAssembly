@@ -144,10 +144,13 @@ CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Qtworkbench.dir/component.cpp.o
  /home/nodei/practice/OSGAssembly/component.cpp
- /home/nodei/practice/OSGAssembly/osgimplementation.h
+ /home/nodei/practice/OSGAssembly/component.h
+ /home/nodei/practice/OSGAssembly/osginclude.h
 CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o
+ /home/nodei/practice/OSGAssembly/component.h
  /home/nodei/practice/OSGAssembly/globalphysics.cpp
- /home/nodei/practice/OSGAssembly/osgimplementation.h
+ /home/nodei/practice/OSGAssembly/globalphysics.h
+ /home/nodei/practice/OSGAssembly/osginclude.h
 CMakeFiles/Qtworkbench.dir/main.cpp.o
  /home/nodei/practice/OSGAssembly/main.cpp
  /home/nodei/practice/OSGAssembly/mainwindow.h
@@ -289,11 +292,14 @@ CMakeFiles/Qtworkbench.dir/main.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
 CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
- /home/nodei/practice/OSGAssembly/assemblytree.h
+ /home/nodei/practice/OSGAssembly/component.h
+ /home/nodei/practice/OSGAssembly/globalphysics.h
  /home/nodei/practice/OSGAssembly/mainwindow.cpp
  /home/nodei/practice/OSGAssembly/mainwindow.h
  /home/nodei/practice/OSGAssembly/osgimplementation.h
+ /home/nodei/practice/OSGAssembly/osginclude.h
  /home/nodei/practice/OSGAssembly/osglogger.h
+ /home/nodei/practice/OSGAssembly/physicsjoints.h
  /home/nodei/practice/OSGAssembly/qtosgwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QList
@@ -302,7 +308,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QRect
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSize
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSizeF
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QString
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QtGlobal
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
@@ -380,7 +385,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/QColor
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QMouseEvent
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QScreen
  /usr/include/x86_64-linux-gnu/qt5/QtGui/QSurfaceFormat
@@ -404,10 +408,8 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qopengles2ext.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qopenglext.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainter.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
@@ -417,7 +419,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qscreen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurface.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qsurfaceformat.h
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -431,10 +432,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDesktopWidget
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsItem
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsView
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGraphicsWidget
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
@@ -455,11 +452,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsitem.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicslayoutitem.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsscene.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicsview.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgraphicswidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayout.h
@@ -469,7 +461,6 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qopenglwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qscrollarea.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
@@ -483,11 +474,20 @@ CMakeFiles/Qtworkbench.dir/mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  Qtworkbench_autogen/include/ui_mainwindow.h
 CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o
+ /home/nodei/practice/OSGAssembly/component.h
+ /home/nodei/practice/OSGAssembly/globalphysics.h
  /home/nodei/practice/OSGAssembly/osgimplementation.cpp
  /home/nodei/practice/OSGAssembly/osgimplementation.h
+ /home/nodei/practice/OSGAssembly/osginclude.h
+ /home/nodei/practice/OSGAssembly/physicsjoints.h
 CMakeFiles/Qtworkbench.dir/osglogger.cpp.o
  /home/nodei/practice/OSGAssembly/osglogger.cpp
  /home/nodei/practice/OSGAssembly/osglogger.h
+CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o
+ /home/nodei/practice/OSGAssembly/component.h
+ /home/nodei/practice/OSGAssembly/osginclude.h
+ /home/nodei/practice/OSGAssembly/physicsjoints.cpp
+ /home/nodei/practice/OSGAssembly/physicsjoints.h
 CMakeFiles/Qtworkbench.dir/qtosgwidget.cpp.o
  /home/nodei/practice/OSGAssembly/osglogger.h
  /home/nodei/practice/OSGAssembly/qtosgwidget.cpp

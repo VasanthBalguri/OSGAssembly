@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Qtworkbench.dir/component.cpp.o"
   "CMakeFiles/Qtworkbench.dir/globalphysics.cpp.o"
   "CMakeFiles/Qtworkbench.dir/osglogger.cpp.o"
+  "CMakeFiles/Qtworkbench.dir/physicsjoints.cpp.o"
   "CMakeFiles/Qtworkbench.dir/osgimplementation.cpp.o"
   "CMakeFiles/Qtworkbench.dir/main.cpp.o"
   "CMakeFiles/Qtworkbench.dir/Qtworkbench_autogen/mocs_compilation.cpp.o"

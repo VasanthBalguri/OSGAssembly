@@ -1,4 +1,4 @@
-#include "osgimplementation.h"
+#include "component.h"
 
 using namespace osg;
 

@@ -7,7 +7,7 @@ set(AM_CMAKE_CURRENT_SOURCE_DIR "/home/nodei/practice/OSGAssembly/")
 set(AM_CMAKE_CURRENT_BINARY_DIR "/home/nodei/practice/OSGAssembly/bin/")
 set(AM_CMAKE_INCLUDE_DIRECTORIES_PROJECT_BEFORE "")
 set(AM_BUILD_DIR "/home/nodei/practice/OSGAssembly/bin/Qtworkbench_autogen")
-set(AM_SOURCES "/home/nodei/practice/OSGAssembly/component.cpp;/home/nodei/practice/OSGAssembly/globalphysics.cpp;/home/nodei/practice/OSGAssembly/main.cpp;/home/nodei/practice/OSGAssembly/mainwindow.cpp;/home/nodei/practice/OSGAssembly/osgimplementation.cpp;/home/nodei/practice/OSGAssembly/osglogger.cpp;/home/nodei/practice/OSGAssembly/qtosgwidget.cpp")
+set(AM_SOURCES "/home/nodei/practice/OSGAssembly/component.cpp;/home/nodei/practice/OSGAssembly/globalphysics.cpp;/home/nodei/practice/OSGAssembly/main.cpp;/home/nodei/practice/OSGAssembly/mainwindow.cpp;/home/nodei/practice/OSGAssembly/osgimplementation.cpp;/home/nodei/practice/OSGAssembly/osglogger.cpp;/home/nodei/practice/OSGAssembly/physicsjoints.cpp;/home/nodei/practice/OSGAssembly/qtosgwidget.cpp")
 set(AM_HEADERS "")
 # Qt environment
 set(AM_QT_VERSION_MAJOR "5")

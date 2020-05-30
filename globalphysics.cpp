@@ -1,4 +1,4 @@
-#include "osgimplementation.h"
+#include "globalphysics.h"
 
 using namespace osg;
 
