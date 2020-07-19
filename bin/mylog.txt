@@ -1,1 +1,0 @@
-[19:10:15]ShaderComposer::~ShaderComposer() 0x556a06e154b0

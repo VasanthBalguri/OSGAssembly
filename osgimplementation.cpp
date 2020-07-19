@@ -50,10 +50,10 @@ GlobalPhysics* createScene()
     ref_ptr<Component> wheel4 = new Component(tyre1.get(),"wheel1",Vec3(-1.5,5.0,-2.5),Quat(0.0,Vec3(1.0,0.0,0.0)),RIGIDBODY,1.0);
     world->addComponent(wheel4.get());
 
-    ref_ptr<PhysicsJoint> axle1 = new PhysicsJoint(carBody,wheel1,world,Vec3(3.1,-1.2,3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
-    ref_ptr<PhysicsJoint> axle2 = new PhysicsJoint(carBody,wheel2,world,Vec3(-3.1,-1.2,3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
-    ref_ptr<PhysicsJoint> axle3 = new PhysicsJoint(carBody,wheel3,world,Vec3(3.1,-1.2,-3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
-    ref_ptr<PhysicsJoint> axle4 = new PhysicsJoint(carBody,wheel4,world,Vec3(-3.1,-1.2,-3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle1 = new PhysicsJoint(carBody,wheel1,Vec3(3.1,-1.2,3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle2 = new PhysicsJoint(carBody,wheel2,Vec3(-3.1,-1.2,3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle3 = new PhysicsJoint(carBody,wheel3,Vec3(3.1,-1.2,-3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
+    ref_ptr<PhysicsJoint> axle4 = new PhysicsJoint(carBody,wheel4,Vec3(-3.1,-1.2,-3.1),Vec3(0.0,0.0,0.0),Vec3(1.0,0.0,0.0),Vec3(0.0,0.0,1.0));
 
     //for displaying global axes
     osg::Matrix m;

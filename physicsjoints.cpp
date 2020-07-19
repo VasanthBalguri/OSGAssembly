@@ -1,6 +1,6 @@
 #include "physicsjoints.h"
 
-PhysicsJoint::PhysicsJoint(osg::ref_ptr<Component> parent,osg::ref_ptr<Component> child,osg::Vec3 pivot1,osg::Vec3 pivot2,osg::Vec3 axis1,osg::Vec3 axis2)
+PhysicsJoint::PhysicsJoint(Component* parent,Component* child,osg::Vec3 pivot1,osg::Vec3 pivot2,osg::Vec3 axis1,osg::Vec3 axis2)
 {
     btVector3 btpivot1,btpivot2, btaxis1, btaxis2;
     btpivot1.setX(pivot1.x());
@@ -18,8 +18,9 @@ PhysicsJoint::PhysicsJoint(osg::ref_ptr<Component> parent,osg::ref_ptr<Component
 
     btRigidBody* body1 = parent->getRigidBody();
     btRigidBody* body2 = child->getRigidBody();
-    hinge = new btHingeConstraint(*body1,*body2,btpivot1,btpivot2,btaxis1,btaxis2);
+    btHingeConstraint* hinge = new btHingeConstraint(*body1,*body2,btpivot1,btpivot2,btaxis1,btaxis2);
 
     //fixed = new btFixedConstraint(*body1,*body2);
+
     hinge->enableAngularMotor(true,3,30);
 }
